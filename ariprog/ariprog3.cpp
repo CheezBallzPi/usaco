@@ -32,6 +32,7 @@ ifstream fin("ariprog.in");
 ofstream fout("ariprog.out");
 
 int main() {
+    cout << "Start" << endl;
     fin >> N >> M;
     int count, last, diff, i = 0;
     int* numarr;
